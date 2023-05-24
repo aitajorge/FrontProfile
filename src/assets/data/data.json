@@ -1,0 +1,68 @@
+{
+	"name": "jorge aita",
+	"imgFondo": "http://aitajorge.com.ar/images/images/jorgeaitav7.jpg",
+	"backimage": "http://aitajorge.com.ar/images/images/jorgelee1.jpg",
+	"position": "psicoanalista",
+	"ubicacion": "CABA (Argentina)",
+  "about": "psicoanalista, experto en matemas de Lacan, en historia y en informática; argentino",
+
+	"company": {
+		"name": "psicología",
+		"img": "",
+		"url": "http://aitajorge.com.ar",
+		"ubication": "CABA (Argentina)",
+		"about": "psicoanalista, experto en matemas de Lacan, profesor de historia y developers web full stac, argentino"
+	},
+	"education": [{
+			"school": "UBA",
+			"title": "Psicoanálisis",
+			"img": "",
+			"career": "Psicoanálisis - Matemas"
+		},
+		{
+			"school": "ISFD - Dirección General de Cultura y Educación",
+			"title": "Profesorado",
+			"img": "",
+			"career": "Historia - trayectos en Ciencias Sociales"
+		},
+		{
+			"school": "Argentina Programa",
+			"title": "Desarrolador Web Full Stack",
+			"img": "",
+			"career": "Front End - Back End - API´s - Bases de datos / Web dinámicas y estáticas"
+		}
+	],
+
+	"experience": [{
+			"school": "Clínica Privada SRL",
+			"title": "Administrador General",
+			"img": "",
+			"career": "gerente general"
+		},
+		{
+			"school": "Consultorio privado",
+			"title": "clínica psicoanalítica",
+			"img": "",
+			"career": "atención privada"
+		},
+		{
+			"school": "ISFD - Dirección General de Cultura y Educación",
+			"title": "Profesorado",
+			"img": "",
+			"career": "Historia - trayectos en Ciencias Sociales"
+		},
+		{
+			"school": "Argentina Programa",
+			"title": "Desarrolador Web Full Stack",
+			"img": "",
+			"career": "Front End - Back End - API´s - Bases de datos / Web dinámicas y estáticas"
+		},
+		{
+			"school": "Austral Líneas Aéreas",
+			"title": "Programador",
+			"img": "",
+			"career": "RM Cobol dBase II dBase III Basic Clipper"
+		}
+	]
+}
+  

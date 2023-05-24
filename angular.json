@@ -12,7 +12,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
-          "options": {
+          "options": {            
             "outputPath": "dist/portfolio-fe",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -25,9 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -64,6 +67,9 @@
             },
             "development": {
               "browserTarget": "PortfolioFE:build:development"
+            },
+            "options":{
+              "open": true
             }
           },
           "defaultConfiguration": "development"
