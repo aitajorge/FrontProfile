@@ -13,6 +13,8 @@ import { AcercaDComponent } from './componentes/acerca-d/acerca-d.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HabilComponent } from './componentes/habil/habil.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
     AcercaDComponent,
     HabilComponent,
     FooterComponent,
+    HomeComponent,    
+    LoginComponent,
     
  
   ],
