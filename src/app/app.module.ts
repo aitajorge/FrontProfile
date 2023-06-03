@@ -15,6 +15,8 @@ import { HabilComponent } from './componentes/habil/habil.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,7 +31,7 @@ import { LoginComponent } from './componentes/login/login.component';
     HabilComponent,
     FooterComponent,
     HomeComponent,    
-    LoginComponent,
+    LoginComponent, EducacionComponent,
     
  
   ],
@@ -38,7 +40,8 @@ import { LoginComponent } from './componentes/login/login.component';
     AppRoutingModule,
     HttpClientModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

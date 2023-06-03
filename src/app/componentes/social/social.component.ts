@@ -12,7 +12,7 @@ export class SocialComponent implements OnInit{
 
   ngOnInit():void {
   }
-  login(){
+  login(): void{
     this.router.navigate(['/login'])
   }
 }
